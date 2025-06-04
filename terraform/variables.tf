@@ -10,4 +10,10 @@ variable "clusterName" {
   type        = string
   default     = "vprofile-eks"
 }
+# Dummy variable to trigger GitHub Actions
+variable "trigger_temp" {
+  description = "Temporary variable to trigger workflow"
+  type        = string
+  default     = "temp"
+}
 
