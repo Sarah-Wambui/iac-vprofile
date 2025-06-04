@@ -1,3 +1,4 @@
+# Variables for AWS EKS Cluster
 variable "region" {
   description = "AWS region"
   type        = string
@@ -10,4 +11,3 @@ variable "clusterName" {
   default     = "vprofile-eks"
 }
 
-## test variables
