@@ -5,12 +5,12 @@ on:
       - main
       - stage
     paths:
-      -terraform/**
+      - terraform/**
   pull_request:
     branches:
       - main
     paths:
-      -terraform/**
+      - terraform/**
 
 env:
  # Credential for deployment to AWS
